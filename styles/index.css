@@ -30,11 +30,9 @@ body {
 }
 
 .chat-header {
-    /* height: 60px; */
     display: flex;
     align-items: center;
     padding: 20px;
-    /* border-bottom: 1px solid #000; */
 }
 
 .chat-body {
@@ -78,7 +76,6 @@ body {
     background: #fff;
     height: 50px;
     width: 50px;
-    /* margin-right: 20px; */
     position: absolute;
 }
 
@@ -88,7 +85,6 @@ body {
 }
 
 .input-container {
-    /* height: 60px; */
     background-color: #fff;
     display: flex;
     align-items: center;
@@ -101,7 +97,6 @@ body {
     border: none;
     outline: none;
     font-size: 20px;
-    /* box-shadow: 4px 4px 10px 0px rgba(0,0,0,0.75); */
     flex: 1;
 }
 
