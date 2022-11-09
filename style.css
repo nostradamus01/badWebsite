@@ -15,12 +15,110 @@ body {
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
 }
 
 .chat-container {
     margin: 20px;
-    width: 400px;
+    width: 600px;
     border-radius: 20px;
+    box-shadow: 10px 10px 54px 0px rgba(0,0,0,0.75);
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.chat-header {
+    /* height: 60px; */
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    /* border-bottom: 1px solid #000; */
+}
+
+.chat-body {
+    flex: 1;
+    background-color: rgb(218, 218, 218);
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: flex-start;
+    padding-bottom: 40px;
+}
+
+.icon-svg {
+    height: 40px;
+    width: 40px;
+}
+
+.title {
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.message-container {
+    padding: 4px 80px 0 20px;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+}
+
+.message {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-left: 70px;
+}
+
+.sender-icon {
+    border-radius: 50%;
+    overflow: hidden;
+    background: #fff;
+    height: 50px;
+    width: 50px;
+    /* margin-right: 20px; */
+    position: absolute;
+}
+
+.sender-icon-svg {
+    height: 100%;
+    width: 100%;
+}
+
+.input-container {
+    /* height: 60px; */
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 12px 20px;
+}
+
+.message-input {
+    padding: 6px 12px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    /* box-shadow: 4px 4px 10px 0px rgba(0,0,0,0.75); */
+    flex: 1;
+}
+
+.send-message-button {
+    height: 40px;
+    width: 40px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.send-message-button:active {
+    transform: scale(0.9);
+}
+
+.send-message-button svg {
+    height: 100%;
+    width: 100%;
 }
